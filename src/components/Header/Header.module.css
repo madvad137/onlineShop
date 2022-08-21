@@ -1,0 +1,43 @@
+header{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.description{
+    font-size: 25px;
+}
+
+.iconsList{
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.iconsItem{
+    margin-right: 5px;
+}
+
+.iconsItem:last-child{
+    margin-right: 0;
+}
+
+.iconsButton{
+    background: inherit;
+    border: none;
+    outline: none;
+    width: 50px;
+    cursor: pointer;
+}
+.iconsButton img{
+    max-width: 100%;
+}
+
+@media(max-width:530px){
+    .description{
+        display: none;
+    }
+}
